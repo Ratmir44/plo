@@ -1,0 +1,31 @@
+*{
+    margin: auto;
+}
+.container {
+    max-width: 1000px;
+    width: 90%;
+}
+.header, .main, .footer {
+    width: 100%;
+    background-color: gold;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.header-inner{
+    width: 100%;
+    text-align: center;
+}
+.main-inner {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+}
+.card {
+    position: relative;
+    margin: 10px;
+    /*float: left;*/
+    width: 30%;
+    background-color: white;
+}

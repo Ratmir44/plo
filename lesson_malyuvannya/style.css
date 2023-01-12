@@ -1,0 +1,48 @@
+.tree{
+    width: 200px;
+    height: 270px;
+    position: relative;
+}
+.tree-layer,
+.tree-log {
+    position: absolute;
+    margin: auto;
+}
+
+.tree-layer{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid green;
+}
+
+.tree-layer2{
+    position: absolute;
+    top: 70px;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid green;
+}
+
+.tree-layer3{
+    position: absolute;
+
+    top: 140px;
+
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid green;
+}
+
+.tree-log {
+    left: 40px;
+    bottom: 0px;
+    width: 20px;
+    height: 30px;
+    background-color: saddlebrown;
+}
